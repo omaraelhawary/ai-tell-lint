@@ -57,7 +57,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - uses: omaraelhawary/ai-tell-lint@v1  # works once the v1 tag is published
+      - uses: omaraelhawary/ai-tell-lint@v1
         with:
           commits: warn
 ```
