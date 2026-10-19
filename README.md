@@ -54,7 +54,7 @@ jobs:
   ai-tell-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - uses: omaraelhawary/ai-tell-lint@v1  # works once the v1 tag is published
